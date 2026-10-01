@@ -12,7 +12,10 @@ on:
         required: false  
         type: boolean  
         default: false  
-  
+
+permissions:
+  contents: write
+
 jobs:  
   build-and-release:  
     runs-on: ubuntu-latest  
